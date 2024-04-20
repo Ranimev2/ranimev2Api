@@ -24,6 +24,10 @@
   - [Drakor](#drakor)
     - [Drakorkita](#drakorkita)
 
+## Crypto
+
+Belum selesai 
+
 ## Instalation
 
 ### Local
@@ -31,8 +35,8 @@
 Run this command for install the project
 
 ```sh
-git clone https://github.com/ZeroneDoo/zeronewatch-api.git
-cd zeronewatch-api
+git clone https://github.com/ranimev2/ranimev2Api.git
+cd ranimev2Api
 npm install
 ```
 
@@ -46,7 +50,7 @@ Server will running on http://localhost:3000
 
 ## List Source
 
-There is some source at zeronewatch api
+There is some source at ranimev2 api
 
 ## Anime
   - ### Kuramanime
