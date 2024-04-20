@@ -1,9 +1,9 @@
 <p align="center">
-  <a href="https://github.com/ZeroneDoo/zeronewatch-api">
+  <a href="https://github.com/ranimev2/ranimev2Api">
 <!--     <img src="https://media.tenor.com/3S9l9HzhGVcAAAAC/shake-kaninayuta.gif" alt="Logo" width="200" height="200"> -->
   </a>
 
-  <h3 align="center">Zeronewatch API</h3>
+  <h3 align="center">Ranimev2 API</h3>
 
   <p align="center">
     <b>Restful API Komik, Drakor & Anime Subtitle Indonesia</b><br />
