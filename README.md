@@ -46,7 +46,7 @@ Start your serve with this command
 npm start
 ```
 
-Server will running on http://localhost:3000
+Server will running on ranimev2-api.vercel.app
 
 ## List Source
 
@@ -65,7 +65,7 @@ There is some source at ranimev2 api
       /kuramanime/ongoing/popular?page=1
       ```
       default page is 1
-      example: http://localhost:3000/kuramanime/ongoing/popular
+      example: http://ranimev2-api.vercel.app/kuramanime/ongoing/popular
 
     - #### Finished Popular
   
@@ -75,7 +75,7 @@ There is some source at ranimev2 api
       /kuramanime/finished/popular?page=1
       ```
       default page is 1
-      example: http://localhost:3000/kuramanime/finished/popular
+      example: http://ranimev2-api.vercel.app/kuramanime/finished/popular
     
     - #### Detail Anime
   
@@ -84,7 +84,7 @@ There is some source at ranimev2 api
       ```bash
       /kuramanime/anime/:endpoint
       ```
-      example: http://localhost:3000/kuramanime/anime/one-piece
+      example: http://ranimev2-api.vercel.app/kuramanime/anime/one-piece
 
     - #### Detail Episode
   
@@ -93,7 +93,7 @@ There is some source at ranimev2 api
       ```bash
       /kuramanime/anime/:anime/:eps
       ```
-      example: http://localhost:3000/kuramanime/anime/one-piece/1073
+      example: http://ranimev2-api.vercel.app/kuramanime/anime/one-piece/1073
 
     - #### Genre List
   
@@ -102,7 +102,7 @@ There is some source at ranimev2 api
       ```bash
       /kuramanime/genres
       ```
-      example: http://localhost:3000/kuramanime/genres
+      example: http://ranimev2-api.vercel.app/kuramanime/genres
     
     - #### Detail Genre
   
@@ -112,7 +112,7 @@ There is some source at ranimev2 api
       /kuramanime/genres/:endpoint?page=1
       ```
       default page is 1
-      example: http://localhost:3000/kuramanime/genres/action
+      example: http://lranimev2-api.vercel.app/kuramanime/genres/action
     
     - #### Search
   
@@ -122,7 +122,7 @@ There is some source at ranimev2 api
       /kuramanime/search?query=keyword&page=1
       ```
       default page is 1
-      example: http://localhost:3000/kuramanime/search?query=one
+      example: http://ranimev2-api.vercel.app/kuramanime/search?query=one
 
 - ### Wibudesu
 
@@ -136,7 +136,7 @@ There is some source at ranimev2 api
     /wibudesu/popular?page=1
     ```
     default page is 1
-    example: http://localhost:3000/wibudesu/popular
+    example: http://ranimev2-api.vercel.app/wibudesu/popular
     
   - #### Get Latest
  
@@ -146,7 +146,7 @@ There is some source at ranimev2 api
     /wibudesu/latest?page=1
     ```
     default page is 1
-    example: http://localhost:3000/wibudesu/latest
+    example: http://ranimev2-api.vercel.app/wibudesu/latest
     
   - #### Detail Anime
  
@@ -155,7 +155,7 @@ There is some source at ranimev2 api
     ```bash
     /wibudesu/detail/:endpoint
     ```
-    example: http://localhost:3000/wibudesu/detail/howl-no-ugoku-shiro-sub-indo
+    example: http://ranimev2-api.vercel.app/wibudesu/detail/howl-no-ugoku-shiro-sub-indo
     
   - #### Genre List
  
@@ -164,7 +164,7 @@ There is some source at ranimev2 api
     ```bash
     /wibudesu/genres
     ```
-    example: http://localhost:3000/wibudesu/genres
+    example: http://ranimev2-api.vercel.app/wibudesu/genres
     
   - #### Detail Genre
  
@@ -174,7 +174,7 @@ There is some source at ranimev2 api
     /wibudesu/genres/:endpoint?page=1
     ```
     default page is 1
-    example: http://localhost:3000/wibudesu/genres/action
+    example: http://ranimev2-api.vercel.app/wibudesu/genres/action
     
   - #### Search Anime
  
@@ -184,7 +184,7 @@ There is some source at ranimev2 api
     /wibudesu/search?query=keyword&page=1
     ```
     default page is 1
-    example: http://localhost:3000/wibudesu/search?query=mononoke
+    example: http://ranimev2-api.vercel.app/wibudesu/search?query=mononoke
     
   - #### Studio Ghibli
  
@@ -194,7 +194,7 @@ There is some source at ranimev2 api
     /wibudesu/ghibli?page=1
     ```
     default page is 1
-    example: http://localhost:3000/wibudesu/ghibli
+    example: http://ranimev2-api.vercel.app/wibudesu/ghibli
 
 ## Komik
   - ### Komiku
@@ -208,7 +208,7 @@ There is some source at ranimev2 api
       ```bash
       /komiku/popular
       ```
-      example: http://localhost:3000/komiku/popular
+      example: http://ranimev2-api.vercel.app/komiku/popular
     
     - #### Updated Komik
 
@@ -217,7 +217,7 @@ There is some source at ranimev2 api
       ```bash
       /komiku/updated
       ```
-      example: http://localhost:3000/komiku/updated
+      example: http://ranimev2-api.vercel.app/komiku/updated
     
     - #### Manhwa Type
 
@@ -309,7 +309,7 @@ There is some source at ranimev2 api
       /drakorkita/series?page=1
       ```
       default page is 1
-      example: http://localhost:3000/drakorkita/series
+      example: http://ranimev2-api.vercel.app/drakorkita/series
   
     - #### Movie Film
 
@@ -319,7 +319,7 @@ There is some source at ranimev2 api
       /drakorkita/movie?page=1
       ```
       default page is 1
-      example: http://localhost:3000/drakorkita/movie
+      example: http://ranimev2-api.vercel.app/drakorkita/movie
   
     - #### Movie Newest
 
@@ -328,7 +328,7 @@ There is some source at ranimev2 api
       ```bash
       /drakorkita/movie/newest
       ```
-      example: http://localhost:3000/drakorkita/movie/newest
+      example: http://ranimev2-api.vercel.app/drakorkita/movie/newest
   
     - #### Series Ongoing
 
@@ -338,7 +338,7 @@ There is some source at ranimev2 api
       /drakorkita/series/ongoing?page=1
       ```
       default page is 1
-      example: http://localhost:3000/drakorkita/drakorkita/series/ongoing
+      example: http://ranimev2-api.vercel.app/drakorkita/drakorkita/series/ongoing
       
     - #### Series Updated
 
@@ -347,7 +347,7 @@ There is some source at ranimev2 api
       ```bash
       /drakorkita/series/updated
       ```
-      example: http://localhost:3000/drakorkita/drakorkita/series/updated
+      example: http://ranimev2-api.vercel.app/drakorkita/drakorkita/series/updated
       
     - #### Series Completed
 
@@ -357,7 +357,7 @@ There is some source at ranimev2 api
       /drakorkita/series/completed?page=1
       ```
       default page is 1
-      example: http://localhost:3000/drakorkita/drakorkita/series/completed
+      example: http://ranimev2-api.vercel.app/drakorkita/drakorkita/series/completed
       
     - #### Detail Series/Movie
 
@@ -366,7 +366,7 @@ There is some source at ranimev2 api
       ```bash
       /drakorkita/detail/:endpoint
       ```
-      example: http://localhost:3000/drakorkita/drakorkita/detail/revenant-2023-u9p7
+      example: http://ranimev2-api.vercel.app/drakorkita/drakorkita/detail/revenant-2023-u9p7
           
     - #### Genre List
 
@@ -375,7 +375,7 @@ There is some source at ranimev2 api
       ```bash
       /drakorkita/genres
       ```
-      example: http://localhost:3000/drakorkita/genres
+      example: http://ranimev2-api.vercel.app/drakorkita/genres
     
     - #### Detail Genre
 
@@ -385,7 +385,7 @@ There is some source at ranimev2 api
       /drakorkita/genres/:endpoint?page=1
       ```
       default page is 1
-      example: http://localhost:3000/drakorkita/genres/Action
+      example: http://ranimev2-api.vercel.app/drakorkita/genres/Action
 
     - #### Search Series/Movie
 
@@ -395,4 +395,4 @@ There is some source at ranimev2 api
       /drakorkita/search?query=keyword&page=1
       ```
       default page is 1
-      example: http://localhost:3000/drakorkita/search?query=lookism
+      example: http://ranimev2-api.vercel.app/drakorkita/search?query=lookism
