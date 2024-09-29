@@ -58,7 +58,7 @@ const ongoingAnime = async (req, res) => {
     try {
         const { page = 1 } = req.query
 
-        const axiosRequest = await axios.get(`${process.env.NANIMEX_URL}/tag/ongoing/page/${page}`)
+        const axiosRequest = await axios.get(`${process.env.NANIMEX_URL}/tage/ongoing/${page}`)
 
         const datas = await scrapeOngoing({ page }, axiosRequest)
 
@@ -79,7 +79,7 @@ const ongoingAnime = async (req, res) => {
 
 const genreAnime = async (req, res) => {
     try {
-        const axiosRequest = await axios.get(`${process.env.NANIMEX_URL}`)
+        const axiosRequest = await axios.get(`${process.env.NANIMEX_URL}/`)
 
         const datas = await scrapeGenre(req, axiosRequest)
 
@@ -98,11 +98,11 @@ const genreAnime = async (req, res) => {
 
 const detailAnime = async (req, res) => {
     try {
-        const { endpoint }  = req.params
+        const { animeId }  = req.params
 
-        const axiosRequest = await axios.get(`${process.env.NANIMEX_URL}/anime/${endpoint}`)
+        const axiosRequest = await axios.get(`${process.env.NANIMEX_URL}/anime/${animeId}`)
 
-        const data = await scrapeDetailAnime({ endpoint }, axiosRequest)
+        const data = await scrapeDetailAnime({ animeId }, axiosRequest)
 
         res.status(200).json({
             message: "success",
@@ -119,11 +119,11 @@ const detailAnime = async (req, res) => {
 
 const detailMovie = async (req, res) => {
     try {
-        const { endpoint }  = req.params
+        const {}  = req.params
 
-        const axiosRequest = await axios.get(`${process.env.NANIMEX_URL}/movie/${endpoint}`)
+        const axiosRequest = await axios.get(`${process.env.NANIMEX_URL}/movie/`)
 
-        const data = await scrapeDetailMovie({ endpoint }, axiosRequest)
+        const data = await scrapeDetailMovie(axiosRequest)
     } catch (e) {
         console.log(e)
 
@@ -134,11 +134,11 @@ const detailMovie = async (req, res) => {
 }
 
 const detailEpisode = async (req, res) => {
-    const { endpoint } = req.params
+    const { episodeId } = req.params
 
-    const axiosRequest = await axios.get(`${process.env.NANIMEX_URL}/episode/${endpoint}`)
+    const axiosRequest = await axios.get(`${process.env.NANIMEX_URL}/episode/${episodeId}`)
 
-    const datas = await scrapeDetailEpisode({ endpoint }, axiosRequest)
+    const datas = await scrapeDetailEpisode({ episodeId }, axiosRequest)
 
     res.status(200).json({
         message: "success",
