@@ -112,7 +112,7 @@ There is some source at ranimev2 api
       /kuramanime/genres/:endpoint?page=1
       ```
       default page is 1
-      example: http://lranimev2-api.vercel.app/kuramanime/genres/action
+      example: http://ranimev2-api.vercel.app/kuramanime/genres/action
     
     - #### Search
   
