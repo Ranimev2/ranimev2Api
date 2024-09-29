@@ -33,6 +33,30 @@ const popularOngoingAnime = async (req, res) =>  {
     }
 }
 
+const popularOngoingdonghua = async (req, res) =>  {
+    try {
+        const { page = 1 } = req.query
+        const { animeId } = req.query
+        const { episodeId } = req.query
+
+        const axiosRequest = await axios.get(`${process.env.KURAMANIME_URL}/anime/{page}/{animeId}/episode/{episodeId}`)
+
+        const datas = await scrapeOngoingPopular({ page, animeId, episodeId }, axiosRequest)
+
+        res.status(200).json({
+            message: "success",
+            page: parseInt(page),
+            ...datas
+        })
+    } catch (e) {
+        console.log(e)
+        
+        res.json({
+            message: e.message
+        })
+    }
+}
+
 const popularCompletedAnime = async (req, res) =>  {
     try {
         const { page = 1 } = req.query
